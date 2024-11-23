@@ -21,5 +21,10 @@ app.get('/', async (req, res) => {
 
 // Start server
 app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
-});
+	console.log(`
+	🌺 せいれん, The Blue Lotus
+
+	🌍 Server running on port ${port}
+	🚀 http://localhost:${port}
+	`);
+  });
