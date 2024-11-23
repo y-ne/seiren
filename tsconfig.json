@@ -2,7 +2,7 @@
     "compilerOptions": {
         // Modern JavaScript Support
         "target": "ES2022",
-        "module": "ES2022",
+        "module": "CommonJS",
   
         // Paths
         "outDir": "./dist",
